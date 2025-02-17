@@ -15,7 +15,7 @@ public class SpringbootDevopsApplication {
 	 
 	@GetMapping("/devops")
 	public String getMessage() {
-		return "Welcome to Devops";
+		return "Deploy springboot using github actions";
 	}
 
 }
